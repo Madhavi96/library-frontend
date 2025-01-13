@@ -1,0 +1,25 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* Adds space between the image and form */
+}
+
+.login-form {
+    width: 300px;
+}
+
+.login-image {
+    width: 300px;
+    /* Adjust size as needed */
+    height: auto;
+}

@@ -1,0 +1,51 @@
+.main-container {
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header-title {
+    font-size: 1.2rem;
+    margin: 0;
+    background: linear-gradient(90deg, #9e2bd5, #d19e3e);
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-tabs {
+    flex-grow: 1;
+    margin: 0 50px;
+}
+
+:where(.css-dev-only-do-not-override-nqoqt9).ant-tabs > .ant-tabs-nav,
+:where(.css-dev-only-do-not-override-nqoqt9).ant-tabs > div > .ant-tabs-nav {
+  position: static !important; /* Resets the position property */
+}
+
+
+.nav-tabs .ant-tabs-tab {
+    color: white;
+}
+
+.header-search {
+    width: 250px;
+}
+
+.favorite-book {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.book-grid {
+    padding: 20px 0;
+}
