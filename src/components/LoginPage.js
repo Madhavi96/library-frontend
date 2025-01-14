@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Form, Input, Button } from 'antd';
-import BooksImage from '../assets/books.png'; // Import the image
+import BooksImage from '../assets/books.png';
 
 const LoginPage = () => {
     const navigate = useNavigate();
