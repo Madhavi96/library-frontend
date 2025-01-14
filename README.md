@@ -47,8 +47,8 @@ npm start
 ## API Integration
 
 - The frontend communicates with the backend API running at http://localhost:8080. The backend repository is available at https://github.com/Madhavi96/library-backend.
-
 - Make sure your backend server is running before using the frontend.
+- The book covers are fetched from the archive https://openlibrary.org/dev/docs/api/covers
 
 
 ## Contributing
